@@ -1,3 +1,5 @@
+//conversion of a decimal number to its binary form that is 0s & 1s 
+
 import java.util.*;
 public class DecimalToBinaryExample2{    
 public static void toBinary(int decimal){    
