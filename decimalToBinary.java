@@ -14,11 +14,8 @@ public static void toBinary(int decimal){
      }    
 System.out.println();//new line  
 }    
-public static void main(String args[]){      
-System.out.println("Decimal of 10 is: ");  
-toBinary(10);    
-System.out.println("Decimal of 21 is: ");  
-toBinary(21);    
-System.out.println("Decimal of 31 is: ");    
-toBinary(31);  
+public static void main(String args[]){  
+Scanner sc=new Scanner(System.in);   //user input
+int n=sc.nextInt(); 
+toBinary(n);  
 }}      
